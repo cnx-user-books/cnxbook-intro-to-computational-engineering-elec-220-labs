@@ -1,0 +1,32 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Introduction to Quartus and Circuit Diagram Design</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42303</md:content-id>
+  <md:title>Introduction to Quartus and Circuit Diagram Design</md:title>
+  <md:abstract>Introduces FPGAs and the means of programming them.</md:abstract>
+  <md:uuid>077dba20-bbf5-4cf4-9f3c-a6eb0d6c17eb</md:uuid>
+</metadata>
+
+<content>
+    <section id="id5807527">
+      <title>Circuit Design in ELEC 220</title>
+      <para id="id1168222062642">For the first lab and first project of ELEC 220 we will be focusing on the creation of circuit diagrams using <link url="http://www.altera.com/products/software/quartus-ii/web-edition/qts-we-index.html">Altera’s Quartus II Web Edition</link>. In addition to simulating these circuits on a computer, we will also be configuring Field-Programmable Gate Arrays (FPGAs) from these diagrams. Our target platform will be <link url="http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=56&amp;No=364">Terasic’s DE0 Development and Education Board</link> which uses Altera’s Cyclone III FPGA chip.</para>
+      <section id="id8909168">
+        <title>FPGAs</title>
+        <para id="id1168218566534">An FPGA is an integrated circuit, composed of many logic elements, which can be reconfigured by the user to reproduce a variety of circuits. Each logic element contains several different logic gates and memory elements which can be used to recreate a wide variety of circuit components. The DE0 board we will be using has over 15,000 logic elements although we will only be using less than 1% of these, even for the calculator project. Hopefully, after completing this project you will have a better understanding of the power and versatility of FPGAs.</para>
+      </section>
+      <section id="id6575654">
+        <title>FPGA Configuration</title>
+        <para id="id1168222318801">In order for an FPGA to emulate a desired circuit, it must first be set to the proper configuration specified in a data file uploaded to the board. This data file is created, and often uploaded to the board, using FPGA design software such as Altera’s Quartus II. By providing Quartus with information regarding the specific FPGA to be configured, a Quartus project can be easily replicated on an FPGA, shortening delays between concept and protype stages in designing circuits.</para>
+      </section>
+      <section id="id1168218463909">
+        <title>HDL vs. Schematic Diagrams</title>
+        <para id="id1168218423553">There are two ways to specify the intended function of a Quartus project. The more straightforward method is to simply create a schematic diagram of the desired circuit as though you were drawing it out on paper or building it on a breadboard. This has the advantage of being very easy to grasp, however, it requires you to work out the logic for the entire circuit and lay out all the components. The other more abstracted method is to use a Hardware Description Language (HDL) such as Verilog. Writing using this specification language allows you to specifiy the intended function of the circuit from which Quartus creates an optimized circuit layout. Although this method does not give you as much individual control over the design, it allows you to more easily go from concept to end product by tasking your computer with the bulk of the design work. However, for simplicities sake, we will be using schematic diagrams for the majority of this course, with HDL files provided to you for use in later designs.</para>
+      </section>
+    </section>
+    <section id="id1168220410240">
+      <title>Course Overview</title>
+      <para id="id8056892">The first few labs are designed to give you practice in using Quartus to create schematic diagrams by tasking you with creating schematics for circuits you are already familiar with. They also provide a brief review of the inner workings of components which will be used extensively in later designs. We will then move onto more complex circuits when we introduce the idea of a clock signal as an input to a circuit and design finite state machines. Finally, this section of the lab will culminate in the design of a simple calculator, though it’s not quite like most simple calculators you may be used to. This will draw on previous lessons on circuit design, finite state machines, and clock signals while also providing an introduction to simple computers that will carry on into the next protion of the lab section.</para>
+    </section>
+  </content>
+</document>

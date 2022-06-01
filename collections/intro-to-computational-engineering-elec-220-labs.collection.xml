@@ -1,0 +1,89 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>col11405</md:content-id>
+  <md:title>Intro to Computational Engineering: Elec 220 Labs</md:title>
+  
+  
+  <md:license url="http://creativecommons.org/licenses/by/3.0/"/>
+  <md:language>en</md:language>
+
+  
+
+  
+  
+  <md:uuid>b699648f-405b-429f-bf11-37bad4246e7c</md:uuid>
+<md:slug>intro-to-computational-engineering-elec-220-labs</md:slug>
+</metadata>
+
+  <col:content>
+    
+      <col:module document="m42303"/>
+        
+      
+    
+    
+      <col:module document="m42302"/>
+        
+      
+    
+    
+      <col:module document="m42304"/>
+        
+      
+    
+    
+      <col:module document="m37151"/>
+        
+      
+    
+    
+      <col:module document="m40643"/>
+        
+      
+    
+    
+      <col:module document="m37217"/>
+        
+      
+    
+    
+      <col:module document="m40645"/>
+        
+      
+    
+    
+      <col:module document="m37386"/>
+        
+      
+    
+    
+      <col:module document="m40646"/>
+        
+      
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Helpful General Information</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m37152"/>
+        
+      
+    
+    
+      <col:module document="m37154"/>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+  </col:content>
+</col:collection>
